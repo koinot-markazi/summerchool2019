@@ -1,0 +1,141 @@
+.navbar
+	box-shadow: 0 0 10px rgba(0,0,0,.25)
+	button
+		path
+			transition: fill .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out
+	button:hover
+		path
+			fill: $white
+	.form-inline
+		.search
+			border: none
+			position: relative
+			left: 0px
+			float: left
+		.searchSubmit
+			position: relative
+			float: right
+			bottom: 7px
+			left: 15px
+.Blocks
+	height: 80vh
+	box-shadow: 0 0 10px rgba(0,0,0,.25)
+	border-radius: 3px
+
+.LeftSidebar
+	overflow-y: scroll
+	&::-webkit-scrollbar
+		width: 5px
+	&::-webkit-scrollbar-track
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3)
+	&::-webkit-scrollbar-thumb
+		background-color: $txt
+		outline: 1px solid slategrey
+		border-radius: 100px
+	.CategroiesList
+		h3
+			padding-left: 15px
+			padding-top: 15px
+			cursor: default
+			font-size: 100%
+			font-weight: bold
+		ul
+			list-style: none
+			padding-left: 15px
+			padding-right: 15px
+			li
+				padding-top: 12.5px
+				padding-bottom: 12.5px
+				border-bottom: 1px solid #ccc
+				a
+					color: $txt
+					transition: 0.2s 0.2s ease
+					&:hover
+						color: $accent
+						text-decoration: none
+				.active
+					color: $accent
+					font-weight: bold
+.ContentBlock
+	padding: 15px
+	display: flex
+	justify-content: space-between
+	flex-wrap: wrap
+	overflow-y: scroll
+	&::-webkit-scrollbar
+		width: 5px
+	&::-webkit-scrollbar-track
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3)
+	&::-webkit-scrollbar-thumb
+		background-color: $txt
+		outline: 1px solid slategrey
+		border-radius: 100px
+	.UserCard
+		// margin-top: 10px
+		margin-bottom: 20px
+		// min-height: 350px
+		padding: 20px 0px
+		width: 32%
+		border: 1px solid rgba(0,0,0,.05)
+		transition: 0.2s 0.2s ease
+		background-color: $white
+		&:hover
+			box-shadow: 0 0 10px rgba(0,0,0,.25)
+
+		text-align: center
+		.UserImage
+			width: 70%
+			height: 50%
+			border-radius: 100%
+			margin: 20px auto 0 auto
+			background-position: center
+			background-size: cover
+		.UserName
+			overflow: hidden
+			white-space: nowrap
+			text-overflow: ellipsis
+			a
+				font-weight: bold
+				font-size: 1.1em
+				color: $text
+				text-decoration: none
+		.UserPosition
+			color: $txt
+			font-size: .8em
+		.UserHireBtn
+			margin: 10px 0
+			a
+				background-color: $accent
+				padding: 7.5px 50px
+				color: $white
+				text-decoration: none
+				border-radius: 50px
+				&:hover
+					background-color: darken($accent, 5%)
+		.f-left
+			float: left
+			margin-left: 15px
+		.f-right
+			float: right
+			margin-right: 15px
+		.UserStatus
+			float: left
+			width: 100%
+			margin-top: 20px
+			cursor: default
+			&-Now
+				font-weight: bold
+			.Available
+				color: $green
+			.Unavailable
+				color: $red
+			&-Rate
+				color: $txt
+		.UserRate
+			float: left
+			width: 100%
+			color: $txt
+			font-weight: bold
+			&-Title
+				color: $accent
+		

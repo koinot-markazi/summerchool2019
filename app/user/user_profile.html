@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Welcome | Koinot Markazi</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="../img/favicon/favicon.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="../css/main.min.css">
+
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="../img/logo.svg" alt="" class="w-100"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarHeader">
+                <form class="form-inline my-2 my-lg-0 ml-auto">
+                    <div class="form-control w-100">
+                        <input class="mr-sm-2 w-75 search" type="search" placeholder="Search" aria-label="Search">
+        
+                        <button class="btn my-2 my-sm-0 searchSubmit" type="submit"><span class="oi oi-magnifying-glass" style="color: #777"></span></button>
+                    </div>
+                </form>
+                <div class="dropdown">
+        
+                    <button class="btn my-2 my-lg-0 ml-2 dropdown-toggle" id="ProfileButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        KoinotMarkazi  <span class="badge badge-primary">4</span>
+                    </button>
+                    <div class="dropdown-menu my-2 my-lg-0 dropdown-menu-right" aria-labelledby="ProfileButton">
+                        <button class="dropdown-item" type="button">Profile</button>
+                        <button class="dropdown-item" type="button">Notifications <span class="badge badge-primary">4</span></button>
+                        <div class="dropdown-divider"></div>
+                        <button class="dropdown-item text-danger" type="button" data-toggle="modal" data-target="#logoutModal"> 
+                            Log Out 
+                            <span class="oi oi-account-logout" title="icon name" aria-hidden="true"></span> </button>
+                    </div>
+                </div>
+        
+                </div>
+        </nav>
+	<section class="container" style="margin-top: 20px">
+		<div class="row">
+
+			<div class="col-xl-3 col-lg-3 col-md-3">
+				<div class="Blocks LeftSidebar">
+                        <div class="UserInfo">
+                                <div class="UserInfo-img UserImage" style="background-image: url(../img/Users/bm.jpg)">
+                                    
+                                </div>
+                                <hr>
+                                <form>
+                                    <div class="UserInfo-name mt-4 w-100 px-2">
+                                        <input type="text" class="form-control mx-auto" value="BEKHZODKHON MAKHKAMOV" id="UserChangeName">
+                                    </div>
+                                    <div class="UserInfo-position w-100 px-2 my-2">
+                                        <select name="" class="form-control" id="PositionChange">
+                                            <option value="">UI/UX Designer</option>
+                                            <option value="">Full-Stack</option>
+                                        </select> 
+                                    </div>
+                                    <hr>
+                                    <div class="UserInfo-status w-100 d-flex justify-content-between">
+                                        <span class="UserInfo-status-left float-left">Status</span>
+                                        <span class="UserInfo-status-right float-right">
+                                        <a href="#" class="btn btn-outline-primary" id="UserStatusSwitch">Free</a>
+                                    </span>
+                                </div>
+                                
+                                <div class="UserInfo-status w-100 d-flex justify-content-between">
+                                    <span class="UserInfo-status-left float-left">Projects</span>
+                                    <span class="UserInfo-status-right float-right">2</span>
+                                </div>
+                                <!-- <div class="UserInfo-status w-100 d-flex justify-content-between">
+                                    <span class="UserInfo-status-left float-left">Comments</span>
+                                    <span class="UserInfo-status-right float-right">45</span>
+                                </div> -->
+                                <div class="UserInfo-status w-100 d-flex justify-content-between">
+                                    <span class="UserInfo-status-left float-left">Rating</span>
+                                    <span class="UserInfo-status-right float-right">4.9/5.0</span>
+                                </div>
+
+                                <input type="submit" id="UserSubmit" disabled class="btn btn-secondary btn-block" style="width: 90%;" value="Save">
+                                </form>
+                            </div>
+                            
+				</div>
+			</div>
+
+			<div class="col-xl-9 col-lg-9 col-md-9">
+				<div class="Blocks ContentBlock">
+						<div class="UserDetail">
+								<div class="UserDetail-information">
+										<button class="float-right btn editUserInformation">
+												<span class="badge badge-primary">
+													Edit 
+													<span class="oi oi-pencil ml-2"></span>
+												</span>
+										</button>
+										<h3 class="UserDetail-h3">
+												<a href="index.html" class="backTo">Back</a>
+												Personal information
+										</h3>
+										
+										<p class="UserDetail-information-p">
+														Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? utem vel eum iure reprehenderit qui inesse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur quo voluptas nulla?
+										</p>
+
+								</div>
+								<div class="UserDetail-skills mt-3">
+										<h3 class="UserDetail-h3">Skills</h3>
+										<div class="UserDetail-skills-skill">
+												<span class="skill">HTML</span>
+												<span class="skill">CSS</span>
+												<span class="skill">JavaScript</span>
+												<span class="skill">Bootstrap</span>
+												<span class="skill">Vue</span>
+												<button class="addSkill btn btn-outline-primary">Add skill</button>
+										</div>
+								</div>
+								<div class="UserDetail-portfolio mt-3">
+										<h3 class="UserDetail-h3">Portfolio</h3>
+										<div class="UserDetail-portfolio-block">
+
+												<a href="#">
+													<div class="image" style="background-image: url(../img/projects/softcom.png)">
+														<div class="projectEdit">
+															<button class="btn EditProject" onclick="window.location.href='../index.html'"><span class="oi oi-pencil"></span></button>
+															<button class="btn DeleteProject" onclick="window.location.href='../index.html'"><span class="oi oi-x"></span></button>
+														</div>
+													</div>
+													
+												</a>
+
+												<a href="#">
+													<div class="image" style="background-image: url(../img/projects/fdot.png)">
+														<div class="projectEdit">
+															<button class="btn EditProject"><span class="oi oi-pencil"></span></button>
+															<button class="btn DeleteProject"><span class="oi oi-x"></span></button>
+														</div>
+													</div>
+												</a>
+												
+												<button class="Add btn btn-outline-primary"><span class="oi oi-plus"></span></button>
+												
+										</div>
+								</div>
+						</div>
+										
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+	<!-- MODALS -->
+		<!-- HIRING MODAL -->
+
+	<div class="modal fade" id="hireModal" tabindex="-1" role="dialog" aria-labelledby="hireModalLabel" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="hireModalLabel">Hire</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			<form>
+			  <div class="form-group">
+				<label for="recipient-name" class="col-form-label">Recipient: </label>
+				<input type="text" class="form-control" id="recipient-name" disabled>
+			  </div>
+			  <div class="form-group">
+				<label for="message-text" class="col-form-label">Message:</label>
+				<textarea class="form-control" id="message-text"></textarea>
+			  </div>
+			</form>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			<button type="button" class="btn btn-primary">Send message</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+	<!-- / HIRING MODAL -->
+	<!-- SIGNING IN MODAL -->
+	<div class="modal fade" id="signModal" tabindex="-1" role="dialog" aria-labelledby="hireModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+			  <div class="modal-content">
+				<div class="modal-header">
+
+					<ul class="nav nav-tabs w-100" id="loginTabs" role="tablist">
+						<li class="nav-item">
+						  <a class="nav-link active" id="sign-up" data-toggle="tab" href="#signup">Sign Up</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" id="sign-in" data-toggle="tab" href="#signin">Sign In</a>
+						</li>
+					  </ul>
+
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				  
+				</div>
+				<div class="tab-content" id="loginTabs">
+
+					<div class="tab-pane fade show active" id="signup" role="tabpanel" aria-labelledby="signup">
+
+						<div class="modal-body">
+							<form>
+								<div class="form-group">
+									<label for="recipient-name" class="col-form-label">e-Mail: </label>
+									<input type="text" class="form-control" id="login">
+								</div>
+								<div class="form-group">
+									<label for="message-text" class="col-form-label">Password</label>
+									<input type="password" class="form-control" id="password">
+								</div>
+								<div class="form-group">
+									<label for="message-text" class="col-form-label">Confirm password</label>
+									<input type="password" class="form-control" id="password">
+								</div>
+							</form>
+							<p class="text-center text-muted"> By clicking SignUp, you agree to <a href="#">User Agreement, Privacy Policy,</a> and Cookie Policy </p>
+						</div>
+						
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Sign Up</button>
+						</div>
+					</div>
+
+					<div class="tab-pane fade" id="signin" role="tabpanel" aria-labelledby="signin">
+
+						<div class="modal-body">
+							<form>
+								<div class="form-group">
+									<label for="recipient-name" class="col-form-label">Login: </label>
+									<input type="text" class="form-control" id="login">
+								</div>
+								<div class="form-group">
+									<label for="message-text" class="col-form-label">Password</label>
+									<input type="password" class="form-control" id="password">
+									
+								</div>
+							</form>
+							<a href="#" class="text-danger">Forgot password?</a>
+						</div>
+						
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							<button type="button" class="btn btn-primary">Log In</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		</div>
+		
+     <!-- LOG OUT -->
+
+     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Do you want to log out?</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  We will wait you again:)
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-danger">Log out</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+    <!-- / LOG OUT  -->
+
+	<script src="../js/scripts.min.js"></script>
+
+</body>
+</html>
